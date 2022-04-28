@@ -47,7 +47,7 @@ If you want to train our model from scratch, you can first run the main*.py to t
 ```python
 # Using context features
 python main_context.py --model TAttention_Mask_Relu_Score --name TAttention_Mask_Relu_Score_bert_context
-# Do not using context features
+# Without context features
 python main_batch.py --model TAttention_Mask_Relu_Score --name TAttention_Mask_Relu_Score
 ```
 And then you can run the feature_extraction*.py
@@ -55,11 +55,25 @@ And then you can run the feature_extraction*.py
 ```python
 # Using context features
 python feature_extraction_context.py --name TAttention_Mask_Relu_Score_bert_context
-# Do not using context features
+# Without context features
 python feature_extraction.py --name TAttention_Mask_Relu_Score
 ```
 Finally, you can run the svm_classification*.py to evaluate the model.
 
+### Model Performance 
+**Using context**
+| Setting | Weighted Precision |Weighted Recall | Weighted F1-score |
+| --- | ----------- | ----------- | ----------- |
+| Speaker-Dependent | 75.9 |75.2 |75.1 |
+| Speaker-Independent  | 74.4 |73.2 |72.0 |
+
+
+**Without context**
+| Setting | Weighted Precision |Weighted Recall | Weighted F1-score |
+| --- | ----------- | ----------- | ----------- |
+| Speaker-Dependent | 75.2 |74.6 |74.5|
+| Speaker-Independent  | 71.9 | 71.3| 70.0|
+  
 
 ### Citation
 ```
