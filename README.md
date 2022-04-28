@@ -26,7 +26,7 @@ Contained files (15 files)
 - sarcasm_data.json **[Official Dataset Annoation]**
 
 ### Some Details
-- We extract the word-level, utterance-level and context features from the mutlimodal inputs. 
+- We extract the word-level, utterance-level and context features from the multimodal inputs. 
 - We perform [feature selection](https://scikit-learn.org/stable/modules/feature_selection.html#feature-selection-using-selectfrommodel) for the audio features to reduce the feature dimension.  
 - We first train the model and then extract the features before the classification layer. The extraced features are feed into the **SVM** to obtian the final results. 
 
@@ -62,4 +62,6 @@ Finally, you can run the svm_classification*.py to evaluate the model.
 
 
 ### Citation
+```
 @ARTICLE{9387561,  author={Wu, Yang and Zhao, Yanyan and Lu, Xin and Qin, Bing and Wu, Yin and Sheng, Jian and Li, Jinlong},  journal={IEEE MultiMedia},   title={Modeling Incongruity between Modalities for Multimodal Sarcasm Detection},   year={2021},  volume={28},  number={2},  pages={86-95},  doi={10.1109/MMUL.2021.3069097}}
+```
