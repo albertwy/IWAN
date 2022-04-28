@@ -1,6 +1,6 @@
 ## IWAN
 
-Code for IEEE Multimedia Paper **"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**
+Code for IEEE Multimedia Paper [**"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**](https://ieeexplore.ieee.org/document/9387561)
 
 ### Clone
 Clone this repo and install requirements(python 3.8, torch, sklearn).
