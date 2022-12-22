@@ -1,6 +1,8 @@
 ## IWAN
 
-Code for IEEE Multimedia Paper [**"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**](https://ieeexplore.ieee.org/document/9387561)
+
+Code for IEEE Multimedia Paper [**"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**](https://ieeexplore.ieee.org/document/9387561), which was awarded the **IEEE MultiMedia 2021 Best Paper Award** from IEEE MultiMedia by the IEEE Computer Society Publications Board.
+
 
 ### Clone
 Clone this repo and install requirements(python 3.8, torch, sklearn).
@@ -77,5 +79,14 @@ Finally, you can run the svm_classification*.py to evaluate the model.
 
 ### Citation
 ```
-@ARTICLE{9387561,  author={Wu, Yang and Zhao, Yanyan and Lu, Xin and Qin, Bing and Wu, Yin and Sheng, Jian and Li, Jinlong},  journal={IEEE MultiMedia},   title={Modeling Incongruity between Modalities for Multimodal Sarcasm Detection},   year={2021},  volume={28},  number={2},  pages={86-95},  doi={10.1109/MMUL.2021.3069097}}
+@article{wu2021modeling,
+  title={Modeling incongruity between modalities for multimodal sarcasm detection},
+  author={Wu, Yang and Zhao, Yanyan and Lu, Xin and Qin, Bing and Wu, Yin and Sheng, Jian and Li, Jinlong},
+  journal={IEEE MultiMedia},
+  volume={28},
+  number={2},
+  pages={86--95},
+  year={2021},
+  publisher={IEEE}
+}
 ```
