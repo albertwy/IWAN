@@ -1,7 +1,8 @@
 ## IWAN
 
 
-Code for IEEE MultiMedia Paper [**"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**](https://ieeexplore.ieee.org/document/9387561), which was awarded the **IEEE MultiMedia 2021 Best Paper Award** by the IEEE Computer Society Publications Board.
+Code for IEEE MultiMedia Paper [**"Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."**](https://ieeexplore.ieee.org/document/9387561), which was awarded the [**IEEE MultiMedia 2021 Best Paper Award**](https://www.computer.org/publications/best-paper-award-winners) by the IEEE Computer Society Publications Board.
+
 
 
 ### Clone
